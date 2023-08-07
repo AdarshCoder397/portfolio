@@ -148,7 +148,7 @@ img {
 
 /*=============== BUTTONS ===============*/
 .button {
-  display: inline-block;
+  display: inline-flex;
   background-color: var(--title-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;
@@ -158,9 +158,11 @@ img {
 
 .button:hover {
   background-color: var(--title-color-dark);
+
 }
 
 .button__icon {
+  height: 100%;
   margin-left: var(--mb-0-5);
 }
 
@@ -200,7 +202,8 @@ img {
   .section__subtitle {
     margin-bottom: var(--mb-3);
   }
-}
+} 
+/* 59:13 */
 
 @media screen and (max-width: 576px) {
 }
