@@ -1,5 +1,6 @@
 .w1 {
   text-align: center;
+  margin-bottom: 1rem;
 }
 .services__content {
   display: grid;
@@ -20,7 +21,7 @@
   justify-content: space-evenly;
 }
 .services__content-info > a {
-  margin-top: -4rem;
+  margin-top: -2rem;
 }
 .services__content-img {
   display: flex;
@@ -56,12 +57,3 @@
   }
 }
 
-/* For small devices */
-@media screen and (max-width: 350px) {
-  .skills__box {
-    column-gap: 1.25rem;
-  }
-  .skills__name {
-    font-size: var(--small-font-size);
-  }
-}

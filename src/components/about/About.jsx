@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import AboutImg from '../../assets/about.jpg'
+import AboutImg from '../../assets/profile3.jpg'
 import Info from './Info'
  
 
@@ -18,7 +18,7 @@ const About = () => {
           <div className="about__data">
             <Info />
             <p className='about__description'>I am a passionate and dedicated web developer. Through impactful websites, I strive to revolutionize online experiences, leaving a positive mark on countless lives. I believe in inspiring change, one website at a time, using technology for the greater good.</p>
-            <a target={"_blank"} href={'https://linkedin.com/'} className="button button--flex">Book a call</a>
+            <a target={"_blank"} href={'https://calendly.com/adarsh397k/1-1-consultation'} className="button button--flex">Book a call</a>
           </div>
          </div>
     </section>

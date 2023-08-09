@@ -25,7 +25,7 @@ const Services = () => {
                 conversions, and boost your overall success. Let's build
                 something amazing together!
               </span>
-              <a href="#contact" className="button button-flex">
+              <a href="https://calendly.com/adarsh397k/1-1-consultation" target={"_blank"} className="button button-flex">
                 Get a Quote
               </a>
             </div>

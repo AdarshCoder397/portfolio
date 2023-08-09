@@ -13,7 +13,7 @@ const Data = () => {
         I'm a creative developer based in India,and I'm very passionate and
         dedicated to my work!
       </p>
-      <a href="#contact" className="button button-flex">
+      <a href="https://www.instagram.com/adarsh.code/" target={"_blank"} className="button button-flex">
         Get in touch
         <svg
           className="button__icon"

@@ -1,0 +1,99 @@
+.gptImg {
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+.w1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.portfolio__content {
+  display: grid;
+  place-items: center;
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.107);
+  padding: 2rem 4rem;
+  border-radius: 1.25rem;
+}
+
+.parentPortfolio {
+  display: flex;
+}
+
+.portfolio__content-info {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.portfolio__content-info>a {
+  margin-top: -2rem;
+}
+
+.portfolio__content-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio__content-info>span {
+  margin-left: 2rem;
+}
+
+.pizzaVid {
+  width: 400px;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .portfolio__content-info>span {
+    margin-left: 0rem;
+  }
+
+  .gptImg {
+    border-radius: 1rem;
+    margin-right: 0rem;
+  }
+
+  .pizzaVid {
+    width: 200px;
+    border-radius: 1rem;
+  }
+  
+  .parentPortfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .portfolio__content-info {
+    width: 100%;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .portfolio__content-info>span {
+    margin-top: 0.5rem;
+  }
+
+  .portfolio__content-info>a {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .parentPortfolio {
+    display: block;
+  }
+
+  .portfolio__content-info {
+    width: 100%;
+  }
+}
+
+
